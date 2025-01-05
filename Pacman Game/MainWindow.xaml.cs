@@ -16,9 +16,6 @@ using System.Windows.Threading;
 
 namespace Pacman_Game
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
 
@@ -33,8 +30,6 @@ namespace Pacman_Game
         int ghostMoveStep = 200;
         int currentGhostStep;
         int score = 0;
-
-
 
         public MainWindow()
         {
@@ -94,7 +89,6 @@ namespace Pacman_Game
 
         private void GameSetUp()
         {
-
             MyCanvas.Focus();
 
             gameTimer.Tick += GameLoop;
@@ -128,10 +122,6 @@ namespace Pacman_Game
                     shape.Fill = coinBrush;
                 }
             }
-
-
-
-
         }
 
         private void GameLoop(object sender, EventArgs e)
