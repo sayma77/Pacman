@@ -27,7 +27,7 @@ namespace Pacman_Game
         int speed = 8;
         Rect pacmanHitBox;
         int ghostSpeed = 10;
-        int ghostMoveStep = 200;
+        int ghostMoveStep = 160;
         int currentGhostStep;
         int score = 0;
 
@@ -224,7 +224,7 @@ namespace Pacman_Game
                 {
                     if(pacmanHitBox.IntersectsWith(hitBox))
                     {
-                        GameOver("Haha, you were caught by the ghost! Click ok to play again.");
+                        GameOver("Haha, you were caught by the ghost!");
                     }
                     if(x.Name.ToString() == "orangeguy")
                     {
@@ -237,7 +237,7 @@ namespace Pacman_Game
 
                     currentGhostStep--;
 
-                    if(currentGhostStep < 1)
+                    if(currentGhostStep == 0)
                     {
                         currentGhostStep = ghostMoveStep;
                         ghostSpeed = -ghostSpeed;
@@ -254,10 +254,30 @@ namespace Pacman_Game
         private void GameOver(string message)
         {
             gameTimer.Stop();
-            MessageBox.Show(message, "The Pacman Game");
 
-            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            var result = MessageBox.Show(
+                $"{message}\n\nWould you like to play again?",
+                "The Pacman Game",
+                MessageBoxButton.YesNo,
+                MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
+            {
+                System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            }
+
             Application.Current.Shutdown();
         }
+
+
+        //private void GameOver(string message)
+        //{
+        //    gameTimer.Stop();
+        //    MessageBox.Show(message, "The Pacman Game");
+
+        //    System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+        //    Application.Current.Shutdown();
+        //}
+
     }
 }

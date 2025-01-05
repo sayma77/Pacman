@@ -12,16 +12,16 @@
 
         <Rectangle Name="pacman" Width="30" Height="30" Fill="Yellow" Canvas.Left="65" Canvas.Top="139" />
         <Rectangle Name="redguy" Tag="ghost"  Width="30" Height="30" Fill="Red" Canvas.Left="131" Canvas.Top="69" />
-        <Rectangle Name="orangeguy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="642" Canvas.Top="320"/>
-        <Rectangle Name="pinkguy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="98" Canvas.Top="418"/>
+        <Rectangle Name="orangeguy" Tag="ghost" Width="30" Height="30" Fill="Orange" Canvas.Left="642" Canvas.Top="309" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Rectangle Name="pinkguy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="98" Canvas.Top="406" RenderTransformOrigin="0.52,-0.239" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
         <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="538" Canvas.Left="129" Canvas.Top="104" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="536" Canvas.Left="131" Canvas.Top="458"/>
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="128" Width="20" Canvas.Left="129" Canvas.Top="187"/>
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="128" Width="20" Canvas.Left="647" Canvas.Top="187"/>
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="84" Width="20" Canvas.Left="389" Canvas.Top="231"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="536" Canvas.Left="138" Canvas.Top="443"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="116" Width="20" Canvas.Left="128" Canvas.Top="186" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="116" Width="20" Canvas.Left="647" Canvas.Top="186" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="71" Width="20" Canvas.Left="389" Canvas.Top="231" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="314" Canvas.Left="242" Canvas.Top="211"/>
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="106" Width="20" Canvas.Left="389" Canvas.Top="478"/>
+        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="389" Canvas.Top="463" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
 
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="133" Canvas.Top="405" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
@@ -84,26 +84,24 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="507" Canvas.Top="309" RenderTransformOrigin="4.7,0.331" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="433" Canvas.Top="309" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="433" Canvas.Top="330" RenderTransformOrigin="3.3,-1.996" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="136" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="162" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="195" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="228" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="259" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="322" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="290" Canvas.Top="492" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="516" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="492" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="543" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="428" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="428" Canvas.Top="516" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.45,0.454" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="428" Canvas.Top="543" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="463" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="1.107,3.951" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="497" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="533" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.407,0.537" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="568" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="603" Canvas.Top="492" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="-2.247,0.457" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="631" Canvas.Top="492" RenderTransformOrigin="-2.247,0.457" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
-        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="657" Canvas.Top="492" RenderTransformOrigin="-2.247,0.457" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="136" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5" RenderTransformOrigin="0.533,0.604"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="162" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="190" Canvas.Top="479" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="222" Canvas.Top="479" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="259" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="322" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="290" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="504" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="428" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="428" Canvas.Top="504" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.45,0.454" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="463" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="1.107,3.951" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="497" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="535" Canvas.Top="479" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.407,0.537" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="568" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="603" Canvas.Top="479" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="-2.247,0.457" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="631" Canvas.Top="479" RenderTransformOrigin="-2.247,0.457" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="657" Canvas.Top="479" RenderTransformOrigin="-2.247,0.457" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="185" Canvas.Top="84" HorizontalAlignment="Left" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="217" Canvas.Top="84" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="249" Canvas.Top="84" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
@@ -122,6 +120,8 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="428" Canvas.Top="191" HorizontalAlignment="Left" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="393" Canvas.Top="191" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="5"/>
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="473" Canvas.Top="191" HorizontalAlignment="Center" VerticalAlignment="Top" RadiusX="5" RadiusY="5"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="428" Canvas.Top="530" RenderTransformOrigin="0.45,0.454" RadiusX="5" RadiusY="5" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="357" Canvas.Top="530" RadiusX="5" RadiusY="5" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
     </Canvas>
 </Window>
